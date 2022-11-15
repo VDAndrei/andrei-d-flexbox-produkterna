@@ -42,7 +42,7 @@ header {
 
 .navbar a {
     color: #ffffff;
-    margin: 0 20px;
+    margin: 0 15px;
     font-weight: 600;
     transition: all .55s ease;
 }
@@ -73,7 +73,6 @@ header {
     padding: 20px;
 }
 
-
 .border {
     border: #0b090a solid;
     padding: 30px;
@@ -98,6 +97,7 @@ header {
 .item-four {
     background-color: #fffcf2;
 }
+
 
 .products-row-two {
     display: flex;
