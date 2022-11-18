@@ -51,10 +51,14 @@ header {
     color: #eb5e28;
 }
 
+.top-right-icons {
+    display: flex;
+}
+
 .cart-icon i {
     color: #ffffff;
     font-size: 30px;
-    margin: 0 15px;
+    margin-right: 0 15px;
     transition: all .55s ease;
 }
 
@@ -62,6 +66,20 @@ header {
     color: #eb5e28;
     transform: translateY(-5px);
 }
+
+.menu i {
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0 15px;
+    transition: all .55s ease;
+}
+
+.menu i:hover {
+    color: #eb5e28;
+    transform: translateY(-5px);
+}
+
+
 
 .products-row-one {
     display: flex;
@@ -81,21 +99,25 @@ header {
 .item-one {
     background-color: #fffcf2;
     margin-bottom: 20px;
+    display: flex;
 }
 
 
 .item-two {
     background-color: #fffcf2;
     margin-bottom: 20px;
+    display: flex;
 }
 
 .item-three {
     background-color: #fffcf2;
     margin-bottom: 20px;
+    display: flex;
 }
 
 .item-four {
     background-color: #fffcf2;
+    display: flex;
 }
 
 
