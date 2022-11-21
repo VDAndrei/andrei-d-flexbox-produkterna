@@ -83,10 +83,11 @@ header {
 
 .products-row-one {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     color: #000000;
     flex-wrap: wrap;
-    align-content: flex-start;
+    align-content: space-around;
+    justify-content: center;
     margin-top: 70px;
     padding: 20px;
 }
@@ -99,25 +100,51 @@ header {
 .item-one {
     background-color: #fffcf2;
     margin-bottom: 20px;
+    margin-right: 20px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.item-one img {
+    border-bottom: #000000 solid;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
 }
 
 
 .item-two {
     background-color: #fffcf2;
     margin-bottom: 20px;
+    margin-right: 20px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    flex-basis: 0;
 }
 
 .item-three {
     background-color: #fffcf2;
     margin-bottom: 20px;
+    margin-right: 20px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    flex-basis: 0;
 }
 
 .item-four {
     background-color: #fffcf2;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-grow: 1;
+    flex-basis: 0;
 }
 
 
