@@ -1,129 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"/>
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet"/>
-    <title>Console Masters</title>
-  </head>
-  <body>
-    <header>
-      <a href="index.html" class="logo"><i class='bx bxs-joystick' ></i>Console Masters</a>
-      <div class="search-bar">
-        <input type="text" placeholder="Search..">
-        <i class='bx bx-search'></i>
-      </div>  
-       <div class="top-right-icons">
-         <a href="#" class="cart-icon"><i class='bx bxs-cart'></i></a>
-        <div class="dropdown">
-          <div class="menu"><i class='bx bx-menu'></i></div>
-          <div class="dropdown-content">
-          <a href="index.html">Hem</a>
-          <a href="products.html">Produkter</a>
-          <a href="contacts.html">Kontakta oss</a>
-          <a href="about.html" >Om oss</a>
-          <a href="documentation.html">Processen</a>
+ <head>
+   <meta charset="UTF-8"/>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="/css/style.css" />
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"/>
+   <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"/>
+   <link rel="preconnect" href="https://fonts.googleapis.com" />
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet"/>
+   <title>Console Masters</title>
+ </head>
+ <body>
+    <!-- The whole header it's dedicatd to the navigation bar and the drop down menu-->
+   <header>
+     <!--Here starts the nav bar-->
+     <a href="index.html" class="logo"><i class='bx bxs-joystick' ></i>Console Masters</a>
+     <div class="search-bar">
+       <input type="text" placeholder="Search..">
+       <i class='bx bx-search'></i>
+     </div>  
+     <div class="top-right-icons">
+       <a href="#" class="cart-icon"><i class='bx bxs-cart'></i></a>
+       <!--Here is the code for the deop down menu-->
+       <div class="dropdown">
+         <div class="menu"><i class='bx bx-menu'></i></div>
+         <div class="dropdown-content">
+           <a href="index.html">Hem</a>
+           <a href="products.html">Produkter</a>
+           <a href="contacts.html">Kontakta oss</a>
+           <a href="about.html" >Om oss</a>
+           <a href="documentation.html">Processen</a>
          </div>
+         <!--Here ends the drop down menu-->
        </div>
-     </header>
-    <div class="products-row-one">
-      <h4 class="border item-one">
-        <img src="/img/Nintendo.png" alt="Photo of Nintendo">NINTENDO Switch 2022 Röd/Blå 
-        <dl class="product-details">
-          <dt>Typ av produkt: Spelkonsol</dt>
-          <dt>Konsolsystem: Nintendo Switch</dt>
-          <dt>Processor: NVIDIA Tegra</dt>
-          <dt>Display: LCD färg</dt>
-          <dt>Touchskärm: Ja</dt>
-          <dt>Skärmstorlek (tum): 6.2 tum</dt>
-          <dt>Skärmupplösning: 1280 x 720</dt>
-        </dl>
-      </h4>
-      <h4 class="border item-two">
-        <img src="/img/Xbox series X.png" alt="Photo of an Xbox series x">MICROSOFT Xbox Series X 1TB
-        <dl class="product-details">
-          <dt>Typ av produkt: Spelkonsol</dt>
-          <dt>Processor: AMD Zen 2 CPU (8 kärnor)</dt>
-          <dt>Grafikkort: AMD RDNA 2 GPU 52 CUs @ 1.825 GHz (12 TFLOPS)</dt>
-          <dt>RAM-Minne: 16 GB</dt>
-          <dt>Lagringskapacitet: 1000 GB</dt>
-          <dt>Blu-Ray: Ja</dt>
-        </dl>
-      </h4>
-      <h4 class="border item-three">
-        <img width="240" height="148" src="/img/Xbox-Series-S.png" alt="Photo of an Xbox series s">MICROSOFT Xbox Series S 512GB
-        <dl class="product-details">
-          <dt>Typ av produkt: Spelkonsol</dt>
-          <dt>Processor: AMD Zen 2 CPU (8 kärnor)</dt>
-          <dt>Grafikkort: AMD RDNA 2 GPU 20 CUs @ 1.565 GHz (4 TFLOPS)</dt>
-          <dt>RAM-Minne: 10 GB</dt>
-          <dt>Lagringskapacitet: 512 GB</dt>
-          <dt>Blu-Ray: Nej</dt>
-        </dl>
-      </h4>
-      <h4 class="border item-four">
-        <img width="240" height="148" src="/img/SONY-PlayStation-5-Standard-Edition.webp" alt="Photo of Playstation 5">SONY PlayStation 5 Standard Edition
-        <dl class="product-details">
-          <dt>Typ av produkt: Spelkonsol</dt>
-          <dt>Grafikkort: AMD RDNA 2 (10.3 TFLOPs, Navi-grafik med ray tracing)</dt>
-          <dt>RAM-Minne: 16 GB</dt>
-          <dt>Lagringskapacitet: 825 GB</dt>
-          <dt>Blu-Ray: Ja</dt>
-        </dl>
-      </h4>
-    </div>
-    <div class="products-row-two">
-      <h4 class="border item-five">
-        <img width="240" height="148" src="/img/image4.png" alt="Photo of an Xbox controller">MICROSOFT Xbox Series X|S & Xbox One Trådlös Handkontroll - Svart
-        <dl class="product-details">
-          <dt>Typ av produkt: Handkontroll</dt>
-          <dt>Stödda plattformar: PC, Xbox Series S, Xbox Series X, Xbox One, Android, iOS</dt>
-          <dt>Vibration motor: Ja</dt>
-          <dt>Färg: Svart</dt>
-          <dt>Vikt: 287 g</dt>
-        </dl>
-      </h4>
-      <h4 class="border item-six">
-        <img width="240" height="148" src="/img/ps5 controller.png" alt="Photo of an PlayStation 5 controller">SONY DualSense PlayStation 5 Handkontroll
-        <dl class="product-details">
-          <dt>Typ av produkt: Handkontroll</dt>
-          <dt>Stödda plattformar: PlayStation 5</dt>
-          <dt>Vibration motor: Ja</dt>
-          <dt>Färg: Vit/Svart</dt>
-        </dl>
-      </h4>
-      <h4 class="border item-seven">
-        <img width="240" height="148" src="/img/nintendo controller.png" alt="Photo of an nintendo switch pro controller">NINTENDO Switch Pro Controller
-        <dl class="product-details">
-          <dt>Typ av produkt: Handkontroll</dt>
-          <dt>Stödda plattformar: Nintendo Switch</dt>
-          <dt>Anslutningar: Trådlös</dt>
-          <dt>Färg: grå</dt>
-        </dl>
-      </h4>
-      <h4 class="border item-eight">
-        <img width="240" height="148" src="/img/nintendo-wheel.png" alt="Photo of an Nintendo Switch wheel">NINTENDO Switch Joy-Con Wheel 2-pack
-        <dl class="product-details">
-          <dt>Typ av produkt: Handkontroll</dt>
-          <dt>Färg: Svart</dt>
-        </dl>
-      </h4>
-    </div>
-    <div class="bottom-page">
-      <h3>Kundinformation <a href="#"><p>Bli klubbmedlem</p></a></h3>
-      <h3>Kundservice <a href="contacts.html"><p>Kontakta oss</p></a></h3>
-      <h3>Om Console Masters <a href="about.html"><p>Om oss</p></a></h3>
-      <h3>Betalsätt
+     </div>
+      <!--Here end's the nav bar-->
+   </header>
+   <!--Here are all the item's on the page-->
+   <div class="products-row-one">
+     <!--Here start's item one-->
+     <h4 class="border item-one">
+       <img src="/img/Nintendo.png" alt="Photo of Nintendo">NINTENDO Switch 2022 Röd/Blå 
+       <dl class="product-details">
+         <dt>Typ av produkt: Spelkonsol</dt>
+         <dt>Konsolsystem: Nintendo Switch</dt>
+         <dt>Processor: NVIDIA Tegra</dt>
+         <dt>Display: LCD färg</dt>
+         <dt>Touchskärm: Ja</dt>
+         <dt>Skärmstorlek (tum): 6.2 tum</dt>
+         <dt>Skärmupplösning: 1280 x 720</dt>
+       </dl>
+     </h4>
+     <!--Here end's item one-->
+     <h4 class="border item-two">
+       <img src="/img/Xbox series X.png" alt="Photo of an Xbox series x">MICROSOFT Xbox Series X 1TB
+       <dl class="product-details">
+         <dt>Typ av produkt: Spelkonsol</dt>
+         <dt>Processor: AMD Zen 2 CPU (8 kärnor)</dt>
+         <dt>Grafikkort: AMD RDNA 2 GPU 52 CUs @ 1.825 GHz (12 TFLOPS)</dt>
+         <dt>RAM-Minne: 16 GB</dt>
+         <dt>Lagringskapacitet: 1000 GB</dt>
+         <dt>Blu-Ray: Ja</dt>
+       </dl>
+     </h4>
+     <h4 class="border item-three">
+       <img width="240" height="148" src="/img/Xbox-Series-S.png" alt="Photo of an Xbox series s">MICROSOFT Xbox Series S 512GB
+       <dl class="product-details">
+         <dt>Typ av produkt: Spelkonsol</dt>
+         <dt>Processor: AMD Zen 2 CPU (8 kärnor)</dt>
+         <dt>Grafikkort: AMD RDNA 2 GPU 20 CUs @ 1.565 GHz (4 TFLOPS)</dt>
+         <dt>RAM-Minne: 10 GB</dt>
+         <dt>Lagringskapacitet: 512 GB</dt>
+         <dt>Blu-Ray: Nej</dt>
+       </dl>
+     </h4>
+     <h4 class="border item-four">
+       <img width="240" height="148" src="/img/SONY-PlayStation-5-Standard-Edition.webp" alt="Photo of Playstation 5">SONY PlayStation 5 Standard Edition
+       <dl class="product-details">
+         <dt>Typ av produkt: Spelkonsol</dt>
+         <dt>Grafikkort: AMD RDNA 2 (10.3 TFLOPs, Navi-grafik med ray tracing)</dt>
+         <dt>RAM-Minne: 16 GB</dt>
+         <dt>Lagringskapacitet: 825 GB</dt>
+         <dt>Blu-Ray: Ja</dt>
+       </dl>
+     </h4>
+   </div>
+   <div class="products-row-two">
+     <h4 class="border item-five">
+       <img width="240" height="148" src="/img/image4.png" alt="Photo of an Xbox controller">MICROSOFT Xbox Series X|S & Xbox One Trådlös Handkontroll - Svart
+       <dl class="product-details">
+         <dt>Typ av produkt: Handkontroll</dt>
+         <dt>Stödda plattformar: PC, Xbox Series S, Xbox Series X, Xbox One, Android, iOS</dt>
+         <dt>Vibration motor: Ja</dt>
+         <dt>Färg: Svart</dt>
+         <dt>Vikt: 287 g</dt>
+       </dl>
+     </h4>
+     <h4 class="border item-six">
+       <img width="240" height="148" src="/img/ps5 controller.png" alt="Photo of an PlayStation 5 controller">SONY DualSense PlayStation 5 Handkontroll
+       <dl class="product-details">
+         <dt>Typ av produkt: Handkontroll</dt>
+         <dt>Stödda plattformar: PlayStation 5</dt>
+         <dt>Vibration motor: Ja</dt>
+         <dt>Färg: Vit/Svart</dt>
+       </dl>
+     </h4>
+     <h4 class="border item-seven">
+       <img width="240" height="148" src="/img/nintendo controller.png" alt="Photo of an nintendo switch pro controller">NINTENDO Switch Pro Controller
+       <dl class="product-details">
+         <dt>Typ av produkt: Handkontroll</dt>
+         <dt>Stödda plattformar: Nintendo Switch</dt>
+         <dt>Anslutningar: Trådlös</dt>
+         <dt>Färg: grå</dt>
+       </dl>
+     </h4>
+     <h4 class="border item-eight">
+       <img width="240" height="148" src="/img/nintendo-wheel.png" alt="Photo of an Nintendo Switch wheel">NINTENDO Switch Joy-Con Wheel 2-pack
+       <dl class="product-details">
+         <dt>Typ av produkt: Handkontroll</dt>
+         <dt>Färg: Svart</dt>
+       </dl>
+     </h4>
+   </div>
+     <!--Here end's the item's-->
+     <!--Here is the bottom of the page-->
+   <div class="bottom-page">
+     <h3>Kundinformation <a href="#"><p>Bli klubbmedlem</p></a></h3>
+     <h3>Kundservice <a href="contacts.html"><p>Kontakta oss</p></a></h3>
+     <h3>Om Console Masters <a href="about.html"><p>Om oss</p></a></h3>
+     <h3>Betalsätt
        <img src="/img/Visa.png" alt="Visa logo">
        <img src="/img/Mastercard.png" alt="Mastercard logo">
        <img src="/img/Paying method.png" alt="Image of a paying method">
-      </h3>
-    </div>
-  </body>
+     </h3>
+   </div>
+   <!--Here end's the bottom of the page-->
+ </body>
 </html>
